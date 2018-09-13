@@ -1,0 +1,26 @@
+<resources>
+    <!--Stopwatch application interface theme colors-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Customized application theme features-->
+    <style name="MyStopWatchTheme" parent="AppTheme" >
+        <item name="android:statusBarColor">@color/colorPrimaryDarker</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/state_colors</item>
+    </style>
+
+    <!--Customized button theme for the start button-->
+    <style name="SpecialButtonTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:colorButtonNormal">@color/start_state_bg</item>
+        <item name="android:textColor">@color/start_state_colors</item>
+    </style>
+
+
+</resources>
